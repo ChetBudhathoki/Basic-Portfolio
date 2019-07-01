@@ -2,10 +2,18 @@ h1 {
     color: white;
     background-color: #4aaaa5;
     float: left;
+    overflow: auto;
+    margin-top: 0;
+    margin-bottom: 20;
     padding: 20px;
     widows: 20%;
+    line-height: 150%;
 }
 
+ul{
+    widows: 20%;
+    float: right;
+}
 li {
     /*background-color: yellow;*/
     display: inline;
@@ -15,6 +23,8 @@ li {
 }
 
 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
     clear: both;
     color: #4aaaa5;
 }
@@ -28,6 +38,14 @@ img {
     clear: both;
 }
 
+#Copyright {
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+    margin: auto;
+    border: 20px;
+}
 
 
 
