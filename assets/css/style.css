@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 20px;
+    widows: 20%;
+}
+
+li {
+    /*background-color: yellow;*/
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    clear: both;
+}
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    clear: both;
+    margin-right: 20px;
+    clear: both;
+}
+
+
+
+
