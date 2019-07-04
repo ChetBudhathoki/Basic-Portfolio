@@ -1,51 +1,36 @@
-h1 {
-    color: white;
+
+.content {
+    width: 960px;
+    margin: 100px auto;
+    border: 5px;
+}
+
+header h1{
     background-color: #4aaaa5;
     float: left;
-    overflow: auto;
-    margin-top: 0;
-    margin-bottom: 20;
-    padding: 20px;
-    widows: 20%;
-    line-height: 150%;
+    margin: 0;
+    padding: 15px;
 }
 
-ul{
-    widows: 20%;
-    float: right;
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
-li {
-    /*background-color: yellow;*/
+
+.links li {
     display: inline;
-    padding: 10px;
-    margin: 20px;
-    clear: both;
-}
-
-h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    clear: both;
-    color: #4aaaa5;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-    float: left;
-    clear: both;
-    margin-right: 20px;
-    clear: both;
-}
-
-#Copyright {
-    clear: both;
     text-align: center;
-    background-color: #666666;
-    color: white;
-    margin: auto;
-    border: 20px;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
 }
 
+.profile-image {
+    float: left;
+}
 
-
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
