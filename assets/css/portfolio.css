@@ -54,6 +54,9 @@ header h1{
     height: 300px;
     float: left;
     margin: 2px;
+    color: white;
+    size: 10 px;
+    text-align: center;
 }
 
 .portfolio2 {
@@ -62,6 +65,9 @@ header h1{
     height: 300px;
     margin: 2px;
     float: left;
+    color: blue;
+    size: 10px;
+    text-align: center;
 }
 
 .footer {
