@@ -41,11 +41,15 @@ li a {
     padding-top: 20px;
 }
 
+.form {
+    align-content: center;
+}
 
 .submit {
     background-color: teal;
     color: white;
     float: left;
+    margin-top: 20px;
 }
 
 

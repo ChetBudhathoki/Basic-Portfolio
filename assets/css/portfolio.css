@@ -49,14 +49,22 @@ li a {
     text-align: center;
 }
 
+.moose2 {
+    display: inline-block;
+    width: 310px;
+    height: 310px;
+    text-align: center;
+    clear: both;
+}
+
 .footer {
-color: white;
-width: 100%;
-position: absolute;
-bottom: 0; /* This will allow footer text on the bottom */
-text-align: center;
-font-size: 10px;
-padding-top: 20px;
-padding-bottom: 5px;
-background-color: #666666;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* This will allow footer text on the bottom */
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #666666;
 }
