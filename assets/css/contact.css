@@ -1,6 +1,7 @@
 
 .fullpage {
     margin: 0 auto;
+    /* text-align: center; */
 }
 
 .maincontent {
@@ -35,6 +36,11 @@ li a {
     text-decoration: none;
 }
 
+a :hover {
+    color: darkblue;
+    font-size: 200%;
+}
+
 .contact {
     clear: both;
     color: teal;
@@ -42,14 +48,23 @@ li a {
 }
 
 .form {
-    align-content: center;
+    width: 95%;
+    box-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* #message {
+resize: both;
+overflow: auto;
+} */
 
 .submit {
     background-color: teal;
     color: white;
     float: left;
     margin-top: 20px;
+    position: relative;
 }
 
 

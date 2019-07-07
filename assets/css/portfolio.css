@@ -35,6 +35,11 @@ li a {
     text-decoration: none;
 }
 
+a :hover {
+    color: darkblue;
+    font-size: 200%;
+}
+
 .portfolio {
     clear: both;
     color: teal;
