@@ -2,23 +2,59 @@
 .maincontent {
     width: 960px;
     margin: 0 auto;
-    padding: 0;
-    line-height: 150%;
+    /* padding: 0;
+    line-height: 150%; */
+    background: assets/images/papyrus.png;
 }
 
 h1 {
     color: white;
     background-color: teal;
     padding: 20px;
-    display: inline-block;
+    float: left;
+}
+
+ul {
+    display: inline;
+    /* float: left; */
+    overflow: hidden;
+    list-style-type: none; /* This will remove the bullets*/
+    margin: 5px;
+    padding: 10px;
 }
 
 li {
-    display: inline-block;
-    align-items: right;
+    float: right;
 }
 
-/* .footer {
+li a {
+    display: block;
     text-align: center;
-    height: 100%;
-} */
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.aboutme {
+    clear: both;
+    color: teal;
+}
+
+.imageparagraph {
+    float: left;
+    margin-right: 5px;
+}
+
+p {
+    line-height: 150%;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    background-color: gray;
+}
