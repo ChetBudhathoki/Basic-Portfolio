@@ -13,9 +13,9 @@ h1 {
 
 ul {
     display: inline;
-    overflow: hidden;
+    /* overflow: hidden; */
     list-style-type: none; /* This will remove the bullets*/
-    margin: 5px;
+    /* margin: 5px; */
     padding: 10px;
 }
 
@@ -35,6 +35,7 @@ li a {
     clear: both;
     color: teal;
     background-color: white;
+    padding: 20px;
 }
 
 .imageparagraph {
@@ -51,7 +52,7 @@ p {
     color: white;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0; /* This will allow footer text on the bottom */
     text-align: center;
     font-size: 10px;
     padding-top: 20px;
