@@ -14,10 +14,11 @@ h1 {
 
 ul {
     display: inline;
-    /* overflow: hidden; */
+    padding: 10px;
     list-style-type: none; /* This will remove the bullets*/
     /* margin: 5px; */
-    padding: 10px;
+    /* overflow: hidden; */
+
 }
 
 li {
