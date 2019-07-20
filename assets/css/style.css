@@ -71,16 +71,16 @@ p {
 }
 
 #monkeyp {
-position: absolute;
-top: 70%;
-left: 5px;
-float: left;
-clear: both;
-background-color: white;
-width: 285px;
-text-align: center;
-padding-left: 16px;
-font-style: oblique;
+  position: absolute;
+  top: 77%;
+  left: 10px;
+  float: left;
+  clear: both;
+  background-color: white;
+  width: 275px;
+  text-align: center;
+  padding-left: 16px;
+  font-style: oblique;
 }
 
 .moose2 {
@@ -93,16 +93,16 @@ font-style: oblique;
 }
 
 #moose2p {
-position: absolute;
-top: 5%;
-left: 5px;
-float: left;
-clear: both;
-background-color: white;
-width: 285px;
-text-align: center;
-padding-left: 16px;
-font-style: oblique;
+  position: absolute;
+  top: 77%;
+  left: 10px;
+  float: left;
+  clear: both;
+  background-color: white;
+  width: 275px;
+  text-align: center;
+  padding-left: 16px;
+  font-style: oblique;
 }
 
 .bison {
@@ -115,16 +115,16 @@ text-align: center;
 }
 
 #bisonp {
-position: absolute;
-top: 70%;
-left: 5px;
-float: left;
-clear: both;
-background-color: white;
-width: 285px;
-text-align: center;
-padding-left: 16px;
-font-style: oblique;
+  position: absolute;
+  top: 77%;
+  left: 10px;
+  float: left;
+  clear: both;
+  background-color: white;
+  width: 275px;
+  text-align: center;
+  padding-left: 16px;
+  font-style: oblique;
 }
 
 
